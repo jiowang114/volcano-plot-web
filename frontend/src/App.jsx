@@ -92,7 +92,7 @@ export default function App() {
 
     try {
       // 请确保你的 FastAPI 运行在此地址
-      const response = await fetch('http://localhost:8000/api/upload', {
+      const response = await fetch('https://biotifyjio.onrender.com/api/upload', {
         method: 'POST',
         body: formData,
       });
